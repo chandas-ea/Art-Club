@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AirClub Order</title>
+    <link rel="stylesheet" href="3style-p.css" />
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Oswald&display=swap');
+    </style>
+    <link rel="shortcut icon" href="../Images/ac.png">
+</head>
+<body onload="pricechange()">
+    <header><a href="../0.index.html" style="text-decoration:none; color: inherit;"> Art Club</a>
+    <img id="wallet" src="../Images/wallet.svg" height="40px" width="40px"> <div id="wallet-price"></div> 
+    </header>
+    <div id="sidenav">
+        <div id="nav"><a href="../0.index.html"><img src="../images/home.svg" height="45px" width="45px"></a></div>
+        <div id="nav"><a href="../1.explorer.html"><img src="../images/explorer1.svg" height="45px" width="45px"></a></div>
+        <div id="nav"><a href="../1.contact.html"><img src="../images/contact.svg" height="45px" width="45px"></a></div>
+    </div>
+    <div id="card-name">Cyber Punk</div>
+    <div id="card1"><span id="price">0.39 ETH </span><span id="author">@cyberpunk</span> <div id="inner-card1"></div> </div>
+    <div id="order-confirmed">
+        <img src="../Images/tick.png" height="30px" width="30px"> 
+        Order Confirmed
+        <div id="order-details">
+            <p>Order Amount <span id='eth-price'> 0.39 ETH</span></p>
+    </div>
+</body>
+<script src="../script.js"></script>
+</html>

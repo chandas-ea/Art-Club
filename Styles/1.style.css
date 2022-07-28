@@ -1,0 +1,369 @@
+header{
+    font-size: 36px;
+    height: 55px;
+    position: fixed;
+    padding-top: 10px;
+    top:0px;
+    color: black;
+    left: 0px;
+    text-align: center;
+    box-shadow: 0px 5px 12px rgba(128, 128, 128, 0.1);
+    width:100%;
+    z-index: 5;
+    background-color: white;
+    font-weight: 450;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+#sidenav{
+    height: 300px;
+    border-radius: 0px 10px 10px 0px;
+    box-shadow: 5px 2px 6px rgba(0, 0, 0, 0.15);
+    position: fixed;
+    left:-28px;
+    top:240px;
+    background-color: rgb(255, 255, 255);
+    width: 53px;
+    transition: .3s;
+    z-index: 5;
+}
+#nav{
+    margin-top: 36.5px;
+    font-family: sans-serif;
+    cursor: pointer;
+    transition: .2s;
+}
+#sidenav:hover{
+    box-shadow: 5px 3px 10px rgba(0, 0, 0, 0.517);
+}
+#sidenav:hover{
+    left:0px;
+}
+#trending-nft{
+    font-size: 50px;
+    position: absolute;
+    top:110px;
+    margin-left: 40px;
+    font-family: 'Bebas Neue', cursive;
+    color:black;
+}
+
+#card1{
+    border:2px none black;
+    height:430px;
+    width:300px;
+    border-radius: 25px;
+    position: absolute;
+    left:10vw;
+    top:220px;
+    color: black;
+    cursor: pointer;
+    transition: .2s;
+    box-shadow: 0px 5px 8px rgba(0, 0, 0, 0.4);
+}
+#card1:hover{
+    transform: scale(1.02) ;
+}
+#inner-card1{
+    border:2px none rgba(0, 0, 0, 0.186);
+    width:280px;
+    height: 350px;
+    position: absolute;
+    top:5px;
+    left:9.5px;
+    border-radius: 25px;
+    background-image: url("../Images/obama.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+}
+
+#card2{
+    border:2px none black;
+    height:430px;
+    width:300px;
+    border-radius: 25px;
+    position: absolute;
+    left:40vw;
+    cursor: pointer;
+    top:220px;
+    transition: .2s;
+    box-shadow: 0px 5px 8px rgba(0, 0, 0, 0.4);
+}
+#card2:hover{
+    transform: scale(1.02) ;
+}
+#inner-card2{
+    border:2px none black;
+    width:280px;
+    height: 350px;
+    position: absolute;
+    top:5px;
+    left:9.5px;
+    border-radius: 25px;
+    background-image: url("../images/siks.png");
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#card3{
+    border:2px none black;
+    height:430px;
+    width:300px;
+    border-radius: 25px;
+    position: absolute;
+    left:70vw;
+    cursor: pointer;
+    top:220px;    
+    transition: .2s;
+    box-shadow: 0px 5px 8px rgba(0, 0, 0, 0.4);
+}
+#card3:hover{
+    transform: scale(1.02) ;
+}
+#inner-card3{
+    border:1px none black;
+    width:280px;
+    height: 350px;
+    position: absolute;
+    top:5px;
+    left:9.5px;
+    border-radius: 25px;
+    background-image: url("../images/laker.png");
+    background-size:cover;
+    background-position: center;
+}
+#card4{
+    border:2px none black;
+    height:430px;
+    width:300px;
+    border-radius: 25px;
+    position: absolute;
+    left:10vw;
+    top:800px;
+    color: black;
+    cursor: pointer;
+    transition: .2s;
+    box-shadow: 0px 5px 8px rgba(0, 0, 0, 0.4);
+}
+#card4:hover{
+    transform: scale(1.02) ;
+}
+#inner-card4{
+    border:2px none rgba(0, 0, 0, 0.186);
+    width:280px;
+    height: 350px;
+    position: absolute;
+    top:5px;
+    left:9.5px;
+    border-radius: 25px;
+    background-image: url("../images/hashhead.png");
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+}
+
+#card5{
+    border:2px none black;
+    height:430px;
+    width:300px;
+    border-radius: 25px;
+    position: absolute;
+    left:40vw;
+    cursor: pointer;
+    top:800px;
+    transition: .2s;
+    box-shadow: 0px 5px 8px rgba(0, 0, 0, 0.4);
+}
+#card5:hover{
+    transform: scale(1.02) ;
+}
+#inner-card5{
+    border:2px none black;
+    width:280px;
+    height: 350px;
+    position: absolute;
+    top:5px;
+    left:9.5px;
+    border-radius: 25px;
+    background-image: url("../images/aloneastronauts.png");
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#card6{
+    border:2px none black;
+    height:430px;
+    width:300px;
+    border-radius: 25px;
+    position: absolute;
+    left:70vw;
+    cursor: pointer;
+    top:800px;    
+    transition: .2s;
+    box-shadow: 0px 5px 8px rgba(0, 0, 0, 0.4);
+}
+#card6:hover{
+    transform: scale(1.02) ;
+}
+#inner-card6{
+    border:1px none black;
+    width:280px;
+    height: 350px;
+    position: absolute;
+    top:5px;
+    left:9.5px;
+    border-radius: 25px;
+    background-image: url("../images/liberatorape.png");
+    background-size:cover;
+    background-position: center;
+}
+#card7{
+    border:2px none black;
+    height:430px;
+    width:300px;
+    border-radius: 25px;
+    position: absolute;
+    left:10vw;
+    top:1380px;
+    color: black;
+    cursor: pointer;
+    transition: .2s;
+    box-shadow: 0px 5px 8px rgba(0, 0, 0, 0.4);
+}
+#card7:hover{
+    transform: scale(1.02) ;
+}
+#inner-card7{
+    border:2px none rgba(0, 0, 0, 0.186);
+    width:280px;
+    height: 350px;
+    position: absolute;
+    top:5px;
+    left:9.5px;
+    border-radius: 25px;
+    background-image: url("../images/cereal.png");
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+}
+
+#card8{
+    border:2px none black;
+    height:430px;
+    width:300px;
+    border-radius: 25px;
+    position: absolute;
+    left:40vw;
+    cursor: pointer;
+    top:1380px;
+    transition: .2s;
+    box-shadow: 0px 5px 8px rgba(0, 0, 0, 0.4);
+}
+#card8:hover{
+    transform: scale(1.02) ;
+}
+#inner-card8{
+    border:2px none black;
+    width:280px;
+    height: 350px;
+    position: absolute;
+    top:5px;
+    left:9.5px;
+    border-radius: 25px;
+    background-image: url("../images/famousape.png");
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#card9{
+    border:2px none black;
+    height:430px;
+    width:300px;
+    border-radius: 25px;
+    position: absolute;
+    left:70vw;
+    cursor: pointer;
+    top:1380px;    
+    transition: .2s;
+    box-shadow: 0px 5px 8px rgba(0, 0, 0, 0.4);
+}
+#card9:hover{
+    transform: scale(1.02) ;
+}
+#inner-card9{
+    border:1px none black;
+    width:280px;
+    height: 350px;
+    position: absolute;
+    top:5px;
+    left:9.5px;
+    border-radius: 25px;
+    background-image: url("../images/chubbyturtle.png");
+    background-size:cover;
+    background-position: center;
+}
+#price{
+    position: absolute;
+    bottom:27px;
+    left:30px;
+    font-size: 18px;
+    text-shadow: 0px 0px 1.5px black ;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#author{
+    font-size: large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position: absolute;
+    bottom: 27px;
+    text-shadow: 0px 0px 1.5px rgba(0, 0, 0, 0.549) ;
+    right:20px;
+}
+#footer{
+    border: 2px none black;
+    bottom:0px;
+    background-color: black;
+    position: absolute;
+    width:100%;
+    left:-2px;
+    top:2000px;
+    height: 180px;
+}
+#footer-heading{
+    font-size: 40px;
+    z-index: 1;
+    position: absolute;
+    left:40px;
+    color:white;
+    top:60px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#footer-aside{
+    font-family:'Courier New', Courier, monospace;
+    color:white;
+    font-size:17px;
+    position: absolute;
+    right:60px;
+    letter-spacing: 3px;
+    top:55px;
+}
+#footer-aside1{
+    color:white;
+    font-family:'Courier New', Courier, monospace;
+    font-size:17px;
+    position: absolute;
+    right:60px;
+    letter-spacing: 3px;
+    top:85px;
+}
+#footer-aside2{
+    color:white;
+    font-family:'Courier New', Courier, monospace;
+    font-size:17px;
+    position: absolute;
+    right:60px;
+    letter-spacing: 3px;
+    top:115px; 
+}
